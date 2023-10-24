@@ -1,0 +1,109 @@
+
+
+div {
+    margin-top:-25px ;
+    margin-bottom:0px ;
+    margin-left:-4px; ;
+    margin-right:-10px ;
+}
+
+.blue_banner {
+    
+    background-color: lightblue;
+    background-image: url('/img/pattern.png')
+    
+
+}
+
+.img_control{
+    width: 200px;
+    margin: 50px 0;
+    margin-left: 150px;
+
+}
+
+/*this controls the left and right margin for the whole page*/
+
+main{
+    margin-right: 10%;
+    margin-left: 10%;
+    
+
+}
+
+.title{
+    margin-bottom: ;
+   
+}
+
+.subtitle{
+    
+    margin-bottom: ;
+    
+    margin-top:-25px ;
+}
+
+.date{
+    
+    margin-top: -25px;
+}
+
+.caption1{
+    margin-top: -4px;
+
+}
+
+.caption2{
+    margin-top: -54px;
+}
+
+.list{
+    text-align: left;
+}
+
+.table{
+    border-collapse: collapse;
+    width: 95%;
+}
+
+.table th, .table td{
+
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 8px
+
+}
+
+.table th{
+    background-color: cornflowerblue;
+    
+}
+
+.table tr:nth-child(even){
+    background-color: rgb(223, 240, 248);
+
+}
+
+/* this is the footer of the page */
+
+.footer{
+    text-align: center;
+    background-color: #323A6B;
+    color: white;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25% ;
+    
+}
+
+
+
+
+
+
+
+
