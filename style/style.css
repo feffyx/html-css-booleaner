@@ -1,92 +1,93 @@
-
-
+/* Reset default margin for all div elements */
 div {
-    margin-top:-25px ;
-    margin-bottom:0px ;
-    margin-left:-4px; ;
-    margin-right:-10px ;
+    margin: 0;
+    padding: 0;
 }
 
+/* Styling the blue banner */
 .blue_banner {
-    
     background-color: lightblue;
-    background-image: url('/img/pattern.png')
-    
-
+    background-image: url('/img/pattern.png');
+    height: 100%
 }
 
-.img_control{
+/* Styling for images with the 'img_control' class */
+.img_control {
     width: 200px;
     margin: 50px 0;
-    margin-left: 150px;
-
+    margin-left: 180px;
 }
 
-/*this controls the left and right margin for the whole page*/
-
-main{
+/* Adjust the left and right margin for the main content */
+main {
     margin-right: 10%;
     margin-left: 10%;
-    
 
 }
 
-.title{
-    margin-bottom: ;
-   
+/* Styling for article titles */
+.title {
+    margin-bottom: 10px; /* Add an appropriate value */
 }
 
-.subtitle{
-    
-    margin-bottom: ;
-    
-    margin-top:-25px ;
+/* Styling for subtitles with a link */
+.subtitle {
+    margin-top: -10px;
+    color: #7B7A78;
+    font-weight: 100;
 }
 
-.date{
-    
+.link {
+    color: #82A6E0;
+}
+
+/* Styling for dates */
+.date {
     margin-top: -25px;
+    color: #7B7A78;
+    font-weight: 100
+;
 }
 
-.caption1{
+/* Styling for captions */
+.caption1 {
     margin-top: -4px;
-
+    font-weight: 100;
 }
 
-.caption2{
+.caption2 {
     margin-top: -54px;
+    font-weight: 100;
 }
 
-.list{
+/* Styling for lists */
+.list {
     text-align: left;
 }
 
-.table{
+/* Styling for tables */
+.table {
     border-collapse: collapse;
     width: 95%;
 }
 
-.table th, .table td{
-
+.table th, .table td {
     text-align: left;
     border: 1px solid #ddd;
-    padding: 8px
-
+    padding: 8px;
 }
 
-.table th{
+.table th {
     background-color: cornflowerblue;
-    
+    color: white; /* Add text color to improve contrast */
 }
 
-.table tr:nth-child(even){
+.table tr:nth-child(even) {
     background-color: rgb(223, 240, 248);
-
 }
 
-/* this is the footer of the page */
-
-.footer{
+/* Styling for the footer */
+.footer {
     text-align: center;
     background-color: #323A6B;
     color: white;
@@ -96,9 +97,10 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 25% ;
+    position:static ;
     
 }
+
 
 
 
